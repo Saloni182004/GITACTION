@@ -1,0 +1,11 @@
+# workflows is a folder that contains all the workflow files for GitHub Actions
+# hello.yml is a workflow file that defines a workflow for saying hello
+name: My First Workflow 
+on: push # This workflow will run whenever there is a push to the repository
+jobs: # This section defines the jobs that will run as part of this workflow
+  say-hello: # This is the name of the job
+    runs-on: ubuntu-latest # This specifies the operating system that the job will run on
+    steps: # This section defines the steps that will be executed as part of this job
+      - name: Print message # This is the name of the step
+        run: echo "Hello, Github Actions!" # This is the command that will be executed in this step
+        
