@@ -11,3 +11,9 @@ jobs: # This section defines the jobs that will run as part of this workflow (wh
     
       - name: Print message # This is the name of the step
         run: echo "Hello, SALONI!" # This is the command that will be executed in this step
+
+  say-bye:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print message
+        run: echo "Goodbye for second jobs"
