@@ -8,6 +8,6 @@ jobs: # This section defines the jobs that will run as part of this workflow (wh
     steps: # This section defines the steps that will be executed as part of this job (how to run job)
       - name: Print message # This is the name of the step
         run: echo "Hello, Github Actions!" # This is the command that will be executed in this step
-    steps:
+    
       - name: Print message # This is the name of the step
         run: echo "Hello, SALONI!" # This is the command that will be executed in this step
